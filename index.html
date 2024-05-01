@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Registration Form</title>
+
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+
+<body>
+    <div id="main">
+        <h1>Média Ponderada</h1>
+
+        <form action="verificar">
+            <fieldset>
+                <label for="n1">Nota 1:<input type="text" id="n1" /></label>
+                <label for="n2">Nota 2:<input type="text" id="n2" /></label>
+                <label for="n3">Nota 3:<input type="text" id="n3" /></label>
+                <label for="n4">Nota 4:<input type="text" id="n4" /></label>
+
+                <label for="p1">Peso 1:<input type="text" id="p1" /></label>
+                <label for="p2">Peso 2:<input type="text" id="p2" /></label>
+                <label for="p3">Peso 3:<input type="text" id="p3" /></label>
+                <label for="p4">Peso 4:<input type="text" id="p4" /></label>
+
+                <label for="presenca">
+                    Presença: <input placeholder="0.75" type="number" min="0" max="1" step="0.01" id="presenca">
+                </label>
+            </fieldset>
+            <input id="botao_verificar" type="button" value="Verificar Situação"></input>
+        </form>
+
+        <p>Média: <span id="media"></span></p>
+        <p>Situação: <span id="resultado"></span></p>
+    </div>
+
+    <script src="scripts/media.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

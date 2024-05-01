@@ -1,4 +1,5 @@
-import { verificaSituacao, calculaMedia, verificaAprovacao } from "./media.js"
+/* TODO: Fix test file*/
+// const { verificaSituacao, calculaMedia, verificaAprovacao } = "./media.js"
 
 describe('Verifica Situação', () => {
     test('Caso de Teste #1', () => {
