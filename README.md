@@ -43,7 +43,15 @@ git commit -m "Estágio inicial do exercício."
 
 Por fim, crie um novo repositório no [GitHub](https://github.com) (**sem adicionar** os arquivos `README.md` e `.gitignore`, e de preferência ***público***), e siga as instruções na tela à seguir para enviar os arquivos ao repositório recém criado na plataforma.
 
+## Testes
 
-# Referências
+Os testes podem ser executados também sem nenhuma instalação prévia. Basta abrir o arquivo `index.html`, localizado no diretório `tests/`.
+
+Caso tenha instanciado um servidor local para a aplicação (na porta `8080`, por exemplo), basta executar os testes pela URL `http://localhost:8080/tests/index.html`.
+
+## Referências
 
 - [JavaScript Guide - Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
+- [Mocha - Simple, flexible, fun](https://mochajs.org/)
+- [Chai Assertion Library - Installation](https://www.chaijs.com/guide/installation/#browser)
+- [Chai Assertion Library - BDD](https://www.chaijs.com/api/bdd/#method_eql)

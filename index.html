@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -16,7 +16,7 @@
 
         <form action="verificar">
             <fieldset>
-                <label for="n1">Nota 1:<input type="text" id="n1" value="8"/></label>
+                <label for="n1">Nota 1:<input type="text" id="n1" value="8" /></label>
                 <label for="n2">Nota 2:<input type="text" id="n2" /></label>
                 <label for="n3">Nota 3:<input type="text" id="n3" /></label>
                 <label for="n4">Nota 4:<input type="text" id="n4" /></label>
@@ -47,10 +47,10 @@
 
         button.addEventListener("click", verificar);
 
-        function verificar(){               // TODO.3:
+        function verificar() {               // TODO.3:
             let media = 10;                 // Corrija esta linha..
             let resultado = "Aprovado";     // ... e esta de modo a realizar
-                                            // o cálculo da média corretamente.         
+            // o cálculo da média corretamente.
             document.querySelector("#media").textContent = media;
             document.querySelector("#resultado").textContent = resultado;
         }

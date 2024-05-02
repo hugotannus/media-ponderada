@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Testes | Média Ponderada</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/mocha/mocha.css">
+    <script src="http://chaijs.com/chai.js" type="text/javascript"></script>
+    <script src="https://unpkg.com/mocha/mocha.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div id="mocha"></div>
+
+    <script>
+        mocha.setup('bdd');
+
+        const { assert, expect } = chai;
+    </script>
+
+    <script src="../scripts/media.js"></script>
+    <script src="../scripts/media.test.js"></script>
+
+    <script>
+        mocha.run();
+    </script>
+</body>
+
+</html>
