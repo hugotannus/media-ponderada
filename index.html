@@ -54,10 +54,17 @@
 
         button.addEventListener("click", verificar);
 
-        function verificar() {               // TODO.3:
-            let media = 10;                 // Corrija esta linha..
-            let resultado = "Aprovado";     // ... e esta de modo a realizar
-            // o cálculo da média corretamente.
+        function verificar() {
+            let resultado;
+            let media = calculaMedia(
+                n1.value, n2.value, n3.value, n4.value,
+                p1.value, p2.value, p3.value, p4.value
+            )
+            
+            let aprovado = verificaAprovacao(media, presenca.value);
+
+            resultado = aprovado ? "Aprovado" : "Reprovado";
+
             document.querySelector("#media").textContent = media;
             document.querySelector("#resultado").textContent = resultado;
         }
