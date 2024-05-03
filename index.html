@@ -55,17 +55,15 @@
         button.addEventListener("click", verificar);
 
         function verificar() {
-            let resultado;
-            let media = calculaMedia(
+            let aluno = verificaSituacao(
                 n1.value, n2.value, n3.value, n4.value,
+                presenca.value,
                 p1.value, p2.value, p3.value, p4.value
             )
-            
-            let aprovado = verificaAprovacao(media, presenca.value);
 
-            resultado = aprovado ? "Aprovado" : "Reprovado";
+            let resultado = aluno.aprovado ? "Aprovado" : "Reprovado";
 
-            document.querySelector("#media").textContent = media;
+            document.querySelector("#media").textContent = aluno.media;
             document.querySelector("#resultado").textContent = resultado;
         }
     </script>
