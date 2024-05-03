@@ -43,6 +43,14 @@ git commit -m "Estágio inicial do exercício."
 
 Por fim, crie um novo repositório no [GitHub](https://github.com) (**sem adicionar** os arquivos `README.md` e `.gitignore`, e de preferência ***público***), e siga as instruções na tela à seguir para enviar os arquivos ao repositório recém criado na plataforma.
 
+## Execução
+
+A solução não requer instalação prévia, e pode ser executada:
+
+- abrindo o arquivo `index.html` diretamente no navegador;
+- criando uma instância local da aplicação com o [http-server](https://www.npmjs.com/package/http-server), ou;
+- por meio do uso de extensões do VSCode, como o [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) ou o [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server).
+
 ## Testes
 
 Os testes podem ser executados também sem nenhuma instalação prévia. Basta abrir o arquivo `index.html`, localizado no diretório `tests/`.
