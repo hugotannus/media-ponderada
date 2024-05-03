@@ -37,13 +37,20 @@
         <p>Situação: <span id="resultado"></span></p>
     </div>
 
-    <!-- TODO.1: Adicione a referência correta para acessar as funções
-        de cálculo da média. -->
     <script src="./scripts/media.js"></script>
     <script>
-        /** TODO.2: crie variáveis para armazenar os valores das notas
-            e pesos à partir dos inputs.**/
         let button = document.querySelector("#botao_verificar");
+        let n1 = document.querySelector("#n1");
+        let n2 = document.querySelector("#n2");
+        let n3 = document.querySelector("#n3");
+        let n4 = document.querySelector("#n4");
+        
+        let p1 = document.querySelector("#p1");
+        let p2 = document.querySelector("#p2");
+        let p3 = document.querySelector("#p3");
+        let p4 = document.querySelector("#p4");
+        
+        let presenca = document.querySelector("#presenca");
 
         button.addEventListener("click", verificar);
 
