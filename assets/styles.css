@@ -1,7 +1,29 @@
+html {
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: #a360a3;
+}
+
 label {
   display: block;
+  font-style: italic;
 }
 
 input {
   margin: 8px;
+}
+
+.background {
+  background-color: #a360a3;
+}
+
+.button {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  width: 13rem;
+  background-color: aquamarine;
 }
