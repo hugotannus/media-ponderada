@@ -86,6 +86,90 @@ describe('calculaMedia', () => {
     });
 });
 
+describe('calculaMediaVetorial', () => {
+    it('Caso de Teste #1', () => {
+        let notas = [8, 8]
+        let pesos = [1, 1]
+
+        let media = calculaMediaVetorial(notas, pesos);
+
+        expect(media).to.equal(8)
+    });
+
+    it('Caso de Teste #2', () => {
+        let notas = [8, 8, 8]
+        let pesos = [1, 2, 3]
+
+        let media = calculaMediaVetorial(notas, pesos);
+
+        expect(media).to.equal(8)
+    });
+
+    it('Caso de Teste #3', () => {
+        let notas = [0, 8, 8, 8]
+        let pesos = ['1', '2', '3', '4']
+
+        let media = calculaMediaVetorial(notas, pesos);
+
+        expect(media).to.equal(7.2)
+    });
+
+    it('Caso de Teste #4', () => {
+        let notas = [8, 9, 5, 5]
+        let pesos = [1, 1, 1, 1]
+
+        let media = calculaMediaVetorial(notas, pesos);
+
+        expect(media).to.equal(6.75)
+    });
+
+    
+    it('Caso de Teste #5', () => {
+        let notas = [7]
+        let pesos = [4]
+        
+        let media = calculaMediaVetorial(notas, pesos);
+        
+        expect(media).to.equal(7)
+    });
+
+    it('Caso de Teste #6', () => {
+        let notas = ['8', '9', '5', '5']
+        let pesos = [1, 1, 1, 1]
+
+        let media = calculaMediaVetorial(notas, pesos);
+
+        expect(media).to.equal(6.75)
+    });
+
+    it('Caso de Teste #7', () => {
+        let notas = ['0', '8', '8', '8']
+        let pesos = [1, 2, 3, 4]
+
+        let media = calculaMediaVetorial(notas, pesos);
+
+        expect(media).to.equal(7.2)
+    });
+    
+    it('Caso de Teste #8', () => {
+        let notas = [8.5, 8, 7, 6.5];
+        let pesos = [1, 1, 1, 1];
+
+        let media = calculaMediaVetorial(notas, pesos);
+
+        expect(media).to.equal(7.5)
+    });
+
+    it('Caso de Teste #8', () => {
+        let notas = [8.5, 7.5, 8, 7, 6, 6.5, 7.5, 9.0];
+        let pesos = [1, 1, 1, 1, 1, 1, 1, 1];
+
+        let media = calculaMediaVetorial(notas, pesos);
+
+        expect(media).to.equal(7.5)
+    });
+});
+
 describe('verificaAprovacao', () => {
     it('Caso media seja maior que 7.0 e presença maior que 75%', () => {
         let media = 9;
