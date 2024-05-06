@@ -59,7 +59,18 @@ Caso tenha instanciado um servidor local para a aplicação (na porta `8080`, po
 
 ## Referências
 
+### HTML
+
+- [HTML: Living Standard - Named access on the Window object](https://html.spec.whatwg.org/multipage/nav-history-apis.html#named-access-on-the-window-object)
+- [CSS Tricks - *Named Element IDs Can Be Referenced as JavaScript Globals*](https://css-tricks.com/named-element-ids-can-be-referenced-as-javascript-globals/)
+- [Stack Overflow - *Do DOM tree elements with IDs become global properties?*](https://stackoverflow.com/questions/3434278/do-dom-tree-elements-with-ids-become-global-properties)
+
+### JavaScript
+
 - [JavaScript Guide - Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
+
+### Testing
+
 - [Mocha - Simple, flexible, fun](https://mochajs.org/)
 - [Chai Assertion Library - Installation](https://www.chaijs.com/guide/installation/#browser)
 - [Chai Assertion Library - BDD](https://www.chaijs.com/api/bdd/#method_eql)
