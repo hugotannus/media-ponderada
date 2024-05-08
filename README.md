@@ -74,3 +74,9 @@ Caso tenha instanciado um servidor local para a aplicação (na porta `8080`, po
 - [Mocha - Simple, flexible, fun](https://mochajs.org/)
 - [Chai Assertion Library - Installation](https://www.chaijs.com/guide/installation/#browser)
 - [Chai Assertion Library - BDD](https://www.chaijs.com/api/bdd/#method_eql)
+
+### Web App
+
+- [MDN Web Docs - Web app manifests](https://developer.mozilla.org/en-US/docs/Web/Manifest)
+- [Apiki - Web App Manifest para personalizar sua Progressive Web App](https://blog.apiki.com/web-app-manifest/)
+- [Building a Mobile App using HTML, CSS, and JavaScript](https://medium.com/stackanatomy/building-a-mobile-app-using-html-css-and-javascript-b3a8fd37723d)
