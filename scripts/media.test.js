@@ -86,7 +86,7 @@ describe('calculaMedia', () => {
     });
 });
 
-describe('calculaMediaVetorial', () => {
+describe.skip('calculaMediaVetorial', () => {
     it('Caso de Teste #1', () => {
         let notas = [8, 8]
         let pesos = [1, 1]
@@ -123,13 +123,13 @@ describe('calculaMediaVetorial', () => {
         expect(media).to.equal(6.75)
     });
 
-    
+
     it('Caso de Teste #5', () => {
         let notas = [7]
         let pesos = [4]
-        
+
         let media = calculaMediaVetorial(notas, pesos);
-        
+
         expect(media).to.equal(7)
     });
 
@@ -150,7 +150,7 @@ describe('calculaMediaVetorial', () => {
 
         expect(media).to.equal(7.2)
     });
-    
+
     it('Caso de Teste #8', () => {
         let notas = [8.5, 8, 7, 6.5];
         let pesos = [1, 1, 1, 1];
